@@ -1,5 +1,6 @@
-import prismaClient from "../prisma/index";
+
 import { hash } from "bcryptjs";
+import prismaClient from "../../prisma";
 
 interface CreateUserProps{
   name: string;

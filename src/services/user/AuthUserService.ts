@@ -1,7 +1,7 @@
 import { compare } from "bcryptjs";
-import prismaClient from "../prisma";
 import { sign } from "jsonwebtoken";
-import { Role } from "../generated/prisma/enums";
+
+import prismaClient from "../../prisma";
 
 interface AuthUserServiceProps {
   email: string;

@@ -1,6 +1,7 @@
 
 import { Request, Response } from 'express';
-import { DetailUserService } from '../../services/DetailUserService';
+import { DetailUserService } from '../../services/user/DetailUserService';
+
 
 
 class DetailUserController {
